@@ -1,10 +1,6 @@
 import streamlit as st
 import pandas as pd
 
-# Load trained models
-lr_model = load("fuel_efficiency_lr.pkl")
-dt_model = load("fuel_efficiency_dt.pkl")
-
 # Streamlit App Title
 st.title("Fuel Efficiency Prediction Dashboard")
 
