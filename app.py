@@ -1,12 +1,9 @@
 import streamlit as st
-import os
-os.system('pip install joblib')
-import joblib
 import pandas as pd
 
 # Load trained models
-lr_model = joblib.load("fuel_efficiency_lr.pkl")
-dt_model = joblib.load("fuel_efficiency_dt.pkl")
+lr_model = load("fuel_efficiency_lr.pkl")
+dt_model = load("fuel_efficiency_dt.pkl")
 
 # Streamlit App Title
 st.title("Fuel Efficiency Prediction Dashboard")
